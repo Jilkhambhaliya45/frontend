@@ -34,7 +34,7 @@ h3{
  padding-top: 10px;
  font-size: 1.5rem;
  color: white;
-  height: 180px;
+  height: 500px;
   justify-content: center;
  
   background-color: #414141;
@@ -109,4 +109,45 @@ h3{
   border-radius: 3px;
  font-size: 2rem;
  margin-left: 380px;
+}
+
+ 
+.parallax-container {
+  background-image: url('../images/bg2-removebg-preview.png'); /* Replace with your image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.contact-card {
+  background-color: #414141;
+  color: #FFFFDD;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
 }
