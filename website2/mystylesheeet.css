@@ -103,3 +103,10 @@ h3{
  background-color: #15274B;
  color: #BEB260;
 }
+#home-link{
+  color: #016A70;
+  background-color: #FFFFDD;
+  border-radius: 3px;
+ font-size: 2rem;
+ margin-left: 380px;
+}
