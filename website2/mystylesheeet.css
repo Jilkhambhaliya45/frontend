@@ -147,7 +147,28 @@ h3{
   text-align: center;
   transition: transform 0.2s ease-in-out;
 }
-
 .contact-card:hover {
   transform: translateY(-5px);
 }
+#day-2{
+background-color: #D2DE32;
+color: #016A70;
+
+}
+#link2{
+  font-size: 2rem;
+  margin-left:    100px;
+}
+.main-div2{
+ 
+  font-size: 1.5rem;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+#link-2{
+  background-color: #016A70;
+  color: #D2DE32;
+  border-radius: 5px;
+}
+
+
